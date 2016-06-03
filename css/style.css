@@ -1,0 +1,39 @@
+html,body{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+.canvas{
+	position: absolute;
+	top:0px;
+	left:200px;
+	width:600px;
+	height:600px;
+	background-color:aquamarine;
+	border-top:1px solid black;
+	border-right:1px solid black;
+}
+.li{
+	width:29px;
+	height:29px;
+	float:left;
+	border:1px solid black;
+	border-right:0px solid black;
+	border-top:0px solid black;
+}
+.black{
+	position: absolute;
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	background-color: black;
+}
+.white{
+	position: absolute;
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	background-color: white;
+}
